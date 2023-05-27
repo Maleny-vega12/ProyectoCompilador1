@@ -17,7 +17,7 @@ namespace ProyectoCompilador
     public partial class Login : Form
     {
         string usuario;
-        string server = "Data Source = DESKTOP-VCEO21F; Initial Catalog= SistemasProgramacion; Integrated Security = True ";
+        string server = "Data Source = LAPTOP-UH983DMH\\SQLEXPRESS; Initial Catalog= CompiladorDB; Integrated Security = True ";
         SqlConnection conectar = new SqlConnection();
 
         public Login()
